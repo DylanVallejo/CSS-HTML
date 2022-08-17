@@ -1,0 +1,39 @@
+*{
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+.nav{
+    background-color: rgb(174, 105, 105);
+    justify-content: space-between;
+    display: flex;
+    height: auto;
+    width: auto;
+}
+.nav-title {
+    margin-left: 40px;
+    color: aliceblue;
+    width: 25%;
+}
+.nav-links{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    height: auto;
+}
+.nav a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 30px;
+    float: left;
+}
+.btn{
+    background-color: aqua;
+    padding: 5px;
+    color: white;
+    height: auto;
+    width: auto;
+    box-shadow: 3px 3px 3px 3px rgb(0, 0, 0);
+    font-size: 30px;
+    float: left;
+}

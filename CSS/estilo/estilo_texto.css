@@ -1,0 +1,22 @@
+*{
+    font-family: 'Courier New';
+}
+h1{
+    
+    background-color: black;
+    color: aqua;
+}
+span{
+    color: white;
+}
+h2{
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+}
+h3{
+    text-decoration: underline;
+    text-align: right;
+    background-color: aquamarine;
+    color: blue ;
+}

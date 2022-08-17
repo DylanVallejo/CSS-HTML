@@ -1,0 +1,49 @@
+*{
+    font-family: 'Roboto' sans-serif;
+}
+#body{
+    margin-top: 50px; 
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+#container{
+    border: 2px solid rgb(133, 82, 160);
+    height: 400px;
+    width: 800px;
+    background-color: rgb(203, 155, 246);
+    display: block;
+    padding: 0px;
+    display: inline-block;
+    box-sizing: border-box;
+    
+}
+#userphotos{
+    background-color: rgb(156, 247, 162);
+    /* justify-content: center; */
+    height: 100px;
+}
+.userimg{
+    height: 75px;
+    margin-top: 60px;
+    margin-left: 40px;
+    padding: 3px;
+    border-radius: 50%;
+    background-color: white;
+}
+#information{
+    margin-left: 35px;
+}
+p, a{
+    font-size: 25px;
+    margin-top: 10px;
+}
+h1{
+    margin: 40px 0px 0px 0px ;
+}
+.ubication{
+    height: 20px;
+}
+.engrant{
+    height: 20px;
+}

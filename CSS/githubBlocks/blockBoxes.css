@@ -1,0 +1,53 @@
+.container{
+    background-color: rgb(242, 132, 181);
+    margin: auto;
+    padding: 10px;
+    width: auto;
+    height: auto;
+}
+.header{
+    display: flex;
+    padding: auto;
+    padding-top: 10px;
+}
+h1{
+    
+    font-size: auto ;
+    color: rgb(232, 68, 23);
+    padding: auto;
+    margin: auto;
+    display: block;
+    
+}
+.row1{
+    height: 200px;
+    margin: 20px;
+    padding: 20px;
+    border-color: black;
+    background-color:   cadetblue;
+    justify-content: space-around;
+    display: flex;
+}
+.row2{
+    height: 200px;
+    margin: 20px;
+    padding: 20px;
+    background-color:   pink;
+    justify-content: space-around;
+    display: flex;
+}
+.row3{
+    height: 200px;
+    margin: 20px;
+    padding: 20px;
+    background-color:   rgb(132, 5, 132);
+    justify-content: space-around;
+    display: flex;
+}
+.references {
+    width: auto;
+    height: auto;
+    padding: auto;
+    justify-content: center;
+    display: flex;
+}
