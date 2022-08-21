@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Weather</title>
+    <link rel="stylesheet" href="styleweather.css">
+</head>
+    <body>
+        <div class="header-dojo">
+            <h1>DojoWeather</h1>
+            <ul class="listLinks">
+                <li><a id="city" onclick="informe()">Burbank</a></li>
+                <li><a id="city" onclick="informe()">Chicago</a></li>
+                <li><a id="city" onclick="informe()">Dallas</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="city-header">
+                <h2>San Jose</h2>
+                <span>show temperature in 
+                    <select onchange="convert(this)"  class="degrees">
+                        <option>°C</option>
+                        <option>°F</option>
+                    </select> 
+                </span>
+            </div>
+            <div class="days-container">
+                <div class="day">
+                    <h2>Today</h2>
+                    <img class="reference" src="assets/some_rain.png">
+                    <p class="info">Some rain</p>
+                    <span id="transformar1" class="temperature">24°</span><span id="transformar2" class="temperature">18°</span>    
+                </div>
+                <div class="day">
+                    <h2>Tomorrow</h2>
+                    <img  class="reference" src="assets/some_sun.png">
+                    <p class="info">Some sun</p>
+                    <span id="transformar3" class="temperature">27°</span><span id="transformar4" class="temperature">19°</span>    
+                </div>
+                <div class="day">
+                    <h2>Friday</h2>
+                    <img  class="reference" src="assets/some_rain.png">
+                    <p class="info">Some clouds</p>
+                    <span id="transformar5" class="temperature">21°</span><span id="transformar6" class="temperature">16°</span>    
+
+                </div>
+                <div class="day">
+                    <h2>Saturday</h2>
+                    <img class="reference" src="assets/some_rain.png">
+                    <p class="info">Some sun</p>
+                    <span id="transformar7" class="temperature">26°</span><span id="transformar8" class="temperature">21°</span>    
+                </div>
+
+            </div>
+            <div id="delete-cookie" class="cookie">
+                <img class="cookie-img" src="assets/cookie.png">
+                <div class="co-info">
+                    <p><strong>Stop! Cookie time</strong></p><br>
+                    we use cookies (sadly not the edible ones) to personalize content and adds, 
+                    to privide social media features and to analyse our traffic.<a class ="readMore" href="">Read more...</a>
+                    
+                </div>
+                <button onclick="erase()" class="cokie-btn"> I Accept</button>
+            </div>
+
+
+        </div>
+        <script src="scriptsweather.js"></script>
+    </body>
+</html>

@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* agregar font-style: ; */
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    display: flex;
+    background-color: rgb(170, 170, 170);
+    height: 75px;
+    justify-content: space-between;
+    margin: 0px 10px 10px 10px;
+    padding: 25px;
+}
+.header, h1{
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 50px;
+    /* color: blue;    */
+}
+.search{
+    background-color: aliceblue;
+    border-style: 10px solid ;
+    height: 30px;
+    width: 600px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.login{
+    background-color: aqua;
+    box-shadow: 5px 5px black;
+    height: 30px;
+    width: 75px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.cuerpo{
+    margin: 0px 10px 10px 10px;
+    padding: 0px 25px 25px 25px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+.left-raws{
+    width: auto;
+    /* background-color: rgb(23, 22, 22); */
+    margin: 10px;
+    padding: 10px;
+    /* justify-content: space-between; */
+    justify-content: space-around;
+}
+.raw1{
+    border-style: solid;
+    /* background-color: rgb(175, 131, 131); */
+    margin: 25px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+.left-meaning{
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    justify-content: space-between;
+    font-size: 19px;
+}
+
+.left{
+    text-align: center;
+}
+.significado{
+    font-size: 25px;
+    margin: 6px;
+    font-weight: bold;
+}
+.like{
+    width: 80px;
+    margin: 20px;
+    height: 30px;
+    background-color: rgb(241, 221, 90);
+    box-shadow: 3px 3px black;
+    font-size: 16px;
+}
+.right-raw{
+    width: auto;
+    height: 140px;
+    /* background-color: rgb(171, 243, 166); */
+    margin: 50px;
+    padding: 20px;
+    border-style: solid;
+}
+.add-raw{
+    font-size: 25px;
+    margin:10px;
+    padding: 10px;
+}
+.btnadd{
+    width: 170px;
+    background-color: aquamarine;
+    box-shadow: 5px 5px black;
+    margin: 25px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+}

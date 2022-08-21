@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    /* margin: 0px;
+    padding: 25px; */
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.f-header{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+
+}
+.header-1{
+    background-color: black;
+    color: aliceblue;
+    height: auto;
+    padding: 15px;
+    text-align: left;
+    width: 1000px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    
+    
+}
+.global{
+    display: flex;
+    justify-content: space-around;
+}
+.left{
+    border-style: solid;
+    background-color: aquamarine;
+    width: auto;
+    height: 200px;   
+    margin: 10px;
+    padding: 10px;
+    /* justify-content: center; */
+}
+.user-img{
+    padding: 20px;
+    margin: 10px;
+    justify-content: center;
+    height: 80px;
+    border-radius: 50%;
+    
+}
+.agregar{
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+   
+}
+.usr-nick{
+    text-align: center;
+    margin: 10px;
+    padding: 0px;
+    
+}
+.people{
+    margin: 0px;
+    padding: 0px;
+
+}
+.box{
+    border-style: solid;
+    background-color: aquamarine;
+    width: 500px;
+    height: 150px;
+    margin:15px;
+    padding: 10px;
+}
+.likeheader{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+#likebtn{
+    background-color: orange;
+    box-shadow: 3px 3px black;
+    width: 80px;
+    height: 30px;
+
+}
+.filter{
+    margin: 10px;
+    padding: 10px;
+}

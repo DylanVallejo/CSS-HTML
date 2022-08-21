@@ -1,0 +1,266 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+    background-color: rgb(240, 188, 254);
+    font-family: 'Roboto', sans-serif;
+}
+
+/* parte superior */
+.cabecera{
+    background-color: rgb(0, 0, 0);
+}
+.cabecera_content{
+    color: aliceblue;
+    width: 1080px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto; 
+}
+.links{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between 20px;
+    list-style-type: none;
+
+}
+.cabecera_content a{
+    color: aliceblue;
+    text-decoration: none;
+    margin: 15px ;
+    padding: 10px;
+}
+.titulo{
+    margin-left: 75px;
+}
+.btn{
+    height: 30px;
+    width: 95px;
+    background-color: rgb(47, 192, 208);
+    color: aliceblue;
+    border: none;
+    font-size: 15px;
+    justify-content: right;
+    margin-right: 75px;
+    box-shadow: 5px 5px rgb(12, 12, 12);
+}
+/* TERMINA PARTE SUPERIOR */
+/* information de perfil taRJETA DE USUARIO */
+.container{
+    width: 1080px;
+    margin: 0;
+    
+}
+.bloques_usr{
+    display: flex;
+}
+.user-card{
+    background-color: aliceblue;
+    box-shadow: 3px 3px 3px 3px grey;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(139, 139, 139);
+}
+.user_info{
+    margin-left: 150px;
+    padding: 50px;
+    width: 500px;
+    /* height: 400px; no sirve */
+}
+.userphotos{
+    background-color: rgb(47, 192, 208);
+    justify-content: center;     /*no sirve*/
+    height: 100px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(139, 139, 139);
+}
+.userimg{
+    height: 75px;
+    padding: 1px;
+    margin-top: 55px;
+    margin-left: 40px;
+    border-radius: 50%;
+    border-style: double;
+    border-color: rgb(0, 0, 0);
+    border-width: 3px;
+    /* darle linea de borde */
+}
+.information{
+    margin-left: 50px;
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    
+}
+.infotitle{
+    margin: 0px;
+    margin-top: 30px;
+}
+.ubication{
+    height: 20px;
+    margin-right: 10px;
+}
+.engrant{
+    height: 20px;
+    margin-right: 10px;
+}
+/* TERMINA TARJETA DE USUARIO */
+
+
+/* educacion bloque */
+.education{
+
+    background-color:aliceblue;
+    margin-left: 0px;
+    margin-top: 50px;
+    padding: 0px;
+    width: 500px;
+    flex-direction: column;
+    font-size: 15px;
+    box-shadow: 3px 3px 3px 3px grey;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(139, 139, 139);
+    
+}
+.titleedu{
+    width: 435px;
+    font-size: 25px;
+    height: 50px;
+    padding: 15px 5px 0px 60px;
+    font-weight: bold;
+    background-color: gray;
+    color: aliceblue;
+}
+.educationinfo{
+    padding: 15px;
+    margin-left: 50px;
+    flex: start;
+    font-weight: bold;
+}
+h2{
+    padding: 4px;
+}
+.dates{
+    padding: 4px;
+}
+/* bloque de solicitudes */
+.request-info{
+    width: 250px;
+    background-color: aliceblue;
+    font-weight: bold;
+    margin-top: 50px;
+    box-shadow: 3px 3px 3px 3px grey;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(139, 139, 139);
+
+}
+.request-header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: grey;
+    height: 30px;
+    padding: 15px 0px 5px 0px;
+    font-weight: bolder;
+    color: aliceblue;
+}
+.n-request{
+    background-color: aliceblue;
+    border-radius: 50%;
+    border-style: solid;
+    margin: -3px 4px 2px 4px;
+    padding-bottom: 3px;
+    color: black;
+    border-width: 1px   ;
+
+}
+.request-body{
+    height: 50px;
+    width: 250px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+span{
+    display: flex;
+    margin-left: 10px;
+    padding: 8px;
+}
+.ok, .no{
+    height: 20px;
+    margin: 5px;
+    padding: 2px;
+    justify-content: end;
+}
+.min-picture{
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.connections{
+    
+    background-color: aliceblue;
+    font-weight: bold;
+    margin-top: 50px;
+    box-shadow: 3px 3px  grey;
+    border-style: solid;
+    border-color: rgb(139, 139, 139);
+    border-width: 3px;
+}
+.connections-title{
+    display: inline-block;
+    
+}
+.connection-header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: grey;
+    height: 30px;
+    padding: 15px 0px 5px 0px;
+    font-weight: bolder;
+    color: aliceblue;
+}
+.connections-title{
+    background-color: aliceblue;
+    border-radius: 50%;
+    border-style: solid;
+    margin: -3px 4px 2px 4px;
+    padding-bottom: 3px;
+    color: black;
+    border-width: 1px;
+}
+span{
+    display: flex;
+    
+}
+.min-picture{
+    height: 30px;
+    margin: 5px;
+    padding: 2px;
+}
+.footer{
+    margin: 0px;
+    padding: 5px 5px 5px 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(139, 139, 139);
+}
+.btn-editperfil{
+    border-style: none;
+    background-color: aliceblue;
+    height: 10px;
+    width: 100px;
+    text-decoration: underline;
+    color: blue;
+}
+
+
+
+

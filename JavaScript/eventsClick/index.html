@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styledojonary.css">
+    <!-- agregar estilo de fuente  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Dojonary</title>
+</head>
+    <body>   
+        <!-- encabezado -->
+        <div class="header">
+            <h1>Dojonary</h1> 
+            <input class="search" type="text" placeholder="Search">
+            <button class="login" onclick="login(this)">Login</button>
+        </div>  
+        <!-- encabezado -->
+
+        <div class="cuerpo"> <!--contenedor de raws global-->
+            <div class="left-raws">  <!--raws izquierdos contenedor-->   
+                <div class="raw1">  <!--top raw container-->
+                    <div class="left"> <!--fisrt left raw text cambiar nombre de class si es necesario-->
+                        <h2 class="significado">ninja</h2><p>noun<br>Plural:<em> ninjas</em><br></p>
+                        <button class="like" onclick="alert('Ninja was liked')">like</button>
+                    </div>  
+                    <div class="left-meaning"> <!--meaning-->
+                        <p>A practitioner skilled in the<a href=""> Japanese</a> art of<a href=""> ninjutsu</a></p>
+                    </div>
+                </div>  <!--end top raw container-->  
+
+                <div class="raw1">  <!--bottom raw container-->
+                    <div class="left"> <!--second left raw text-->
+                        <h2 class="significado">ninja</h2><p>noun<br>Plural:<em> ninjas</em><br></p>
+                        <button class="like" onclick="alert('Ninja was liked')">like</button>
+                    </div>  
+                    <div class="left-meaning"> <!--meaning-->
+                        <p>A <a href="">programmer </a> who breaks down problems with <a href=""> zen</a>-like focus</p>
+                    </div>
+                </div>  <!--end bottom raw container-->  
+            </div> <!--termina el container izquierdo-->
+            <div class="right-raw"> <!--container derecho agregar-->
+                <div class="add-raw">
+                    <p>Dojonary is<br> defined by<span> <strong> YOU</strong> </span></p>
+                    <button class="btnadd" onclick="hide(this)">Add definition</button>
+                </div>
+            </div>
+        </div>
+        <script src="dojonary.js"></script>
+    </body>
+</html>

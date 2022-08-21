@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+}
+.header-dojo{
+    background-color: rgb(53, 233, 173);
+    color: white;
+    display: flex;
+    justify-content: space-around ;
+    height: 70px;
+    padding: auto;
+    
+}
+.header-dojo ,h1 , .listLinks{
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+.listLinks, a{
+    display: flex;
+    margin-left: 30px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+}
+.listLinks, a:hover{
+    cursor: pointer;
+}
+
+
+.city-header{
+    display: flex;
+    justify-content: space-evenly ;
+    color: black;
+    margin: auto ;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-bottom: solid;
+} 
+
+.degrees{
+    border-style: solid;
+    margin: 6px;
+    padding: 6px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.days-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+.day{
+    height: auto;
+    background-color: rgb(209, 207, 207);
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 10px;
+
+}
+.reference{
+    height: 175px;
+    margin: 5px;
+    padding: auto;
+    border-radius: 50%;
+}
+.temperature{
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+}
+.info{
+    margin: 10px;
+    padding: 5px;
+}
+.cookie{
+    position: relative;
+    display: flex;
+    width: 1030px;
+    padding: 20px;
+    margin: auto;
+    height: 75px;
+    border-style: solid;
+    background-color: rgb(209, 207, 207);
+}
+.cookie-img{
+    height: 50px   ;
+    margin: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+.cokie-btn{
+    width:100px;
+    height: 50px;
+    background-color: aqua;
+    box-shadow: 3px 3px black;
+    align-items: center;
+    margin: auto;
+}
+.co-info{
+    margin: auto;
+    display: inline-block;
+    height: auto;
+    margin-bottom: 10px;
+}
+.readMore{
+    display: inline-block;
+}
